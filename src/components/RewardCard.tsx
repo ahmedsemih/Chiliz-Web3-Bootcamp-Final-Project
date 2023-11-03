@@ -43,7 +43,7 @@ const RewardCard = () => {
           </span>
       }
       <Web3Button
-        isDisabled={ethers.utils.formatEther(stakeInfo[1]) === "0.0"}
+        isDisabled={stakeInfo && ethers.utils.formatEther(stakeInfo[1]) === "0.0"}
         theme={'dark'}
         contractAddress={CONTRACT_ADDRESS!}
         action={handleClaim}
