@@ -1,10 +1,10 @@
 # Token Staking Dapp
 
-This is a decentralized token staking application. Built on the Sepolia testnet with thirdweb. I created a stake token and a reward token as ERC20. In this application, the user is rewarded every 600 seconds for having staked tokens.
+This is a decentralized token staking application. Built on the Chiliz Spicy testnet with thirdweb. I created a stake token and a reward token as ERC20. In this application, the user is rewarded every 600 seconds for having staked tokens.
 
 ## Configuration Process
 
-Follow these steps to properly configure your environment for the application.
+Clone this project and follow these steps to properly configure your environment for the application.
 
 ### Step 1: Environment File Setup
 
